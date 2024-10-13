@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
 
 <body>
 
@@ -18,7 +19,7 @@
             <li><a href="#" style="text-align: center;">Beranda</a></li>
             <li><a href="#masalah" style="text-align: center;">Masalah</a></li>
             <li><a href="#solusi" style="text-align: center;">Solusi</a></li>
-            <li><a href="#solusi2" style="text-align: center;">solusi 2</a></li>
+            <li><a href="#contact" style="text-align: center;">Kontak</a></li>
         </ul>
         <div class="menu-toggle">
             <input type="checkbox">
@@ -67,52 +68,62 @@
     </section>
 
     <section id="solusi" class="solusi">
-        <h2>Solusi Sampah</h2>
-        <div class="card-group">
+        <h2>Solusi <span>Sampah</span></h2>
+        <p>Kita dapat mengatasi masalah sampah ini melalui 3 langkah, yaitu sebagai berikut.</p>
+        <div class="card-group gap-1">
             <div class="card">
               <img src="images/solusi1.jpg" class="card-img-top" alt="langkah-1">
               <div class="card-body">
                 <h5 class="card-title">Penyediaan Tempat Sampah dan Edukasi Masyarakat</h5>
-                <p class="card-text">Sediakan tempat sampah di sekitar sungai. Jika memungkinkan beri edukasi masyarakat tentang pentingnya membuang sampah pada tempatnya. Sebagai tambahan, beri papan larangan membuang sampah.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">Sediakan tempat sampah di sekitar sungai serta edukasi masyarakat tentang pentingnya membuang sampah pada tempatnya. Sebagai tambahan, beri papan larangan membuang sampah.</p>
               </div>
             </div>
             <div class="card">
-              <img src="..." class="card-img-top" alt="langkah-2">
+              <img src="images/solusi2.jpeg" class="card-img-top" alt="langkah-2">
               <div class="card-body">
                 <h5 class="card-title">Patroli dan Penegakan Hukum</h5>
                 <p class="card-text">Tingkatkan pengawasan di area sungai dan terapkan sanksi tegas bagi yang membuang sampah di sungai sebagai efek jera.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               </div>
             </div>
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="images/solusi3.jpg" class="card-img-top" alt="langkah-3">
               <div class="card-body">
-                <h5 class="card-title">Langkah 3</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <h5 class="card-title">Pengelolaan Sampah</h5>
+                <p class="card-text">Membangun fasilitas pengelolaan sampah yang memadai dan terintegrasi di sekitar sungai. Upaya pemerintah dalam hal pengembangan teknologi juga sangat diperlukan.</p>
               </div>
             </div>
           </div>
     </section>
 
+    <section class="quote">
+        <div class="quote-main">
+            <blockquote>"Water and air, the two essential fluids on which all life depends, have become global garbage cans."</blockquote>
+            <p>(Air dan udara, dua cairan penting yang menopang kehidupan, telah berubah menjadi tempat sampah global.)</p>
+            <cite>- Jacques Cousteau -</cite>
+        </div>
+    </section>
+
     <footer>
         <div class="footer-main">
-            <div class="footer-contact">
-                <h2>Contact Us</h2>
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="logo" style="width: 90px;">
+                <em>Ganyang Sampah Polusi dan Limbah</em>
+            </div>
+            <div class="footer-contact" id="contact">
+                <h2>Hubungi Kami</h2>
                 <ul>
-                    <li>081234567890</li>
-                    <li>@gaspol.id</li>
-                    <li>@facebook</li>
+                    <li><a href="wa.me/6287853163532"><i class="ph ph-whatsapp-logo"></i> 087853163532</a></li>
+                    <li><a href="instagram.com"><i class="ph ph-instagram-logo"></i> @gaspol.in</a></li>
+                    <li><a href="facebook.com"><i class="ph ph-facebook-logo"></i> @facebook</a></li>
                 </ul>
             </div>
             <div class="footer-navigation">
-                <h2>Navigation</h2>
+                <h2>Navigasi</h2>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Content</a></li>
-                    <li><a href="#">masalah</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#masalah">Masalah</a></li>
+                    <li><a href="#solusi">Solusi</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -124,6 +135,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="script.js"></script>
 </body>
 
