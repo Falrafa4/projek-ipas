@@ -4,6 +4,7 @@
     --primary: #78ff5d;
     --color1: #ebffea;
     --color2: #09692e;
+    --darkgreen: #0f2e2c;
 }
 
 *,
@@ -290,6 +291,79 @@ blockquote {
 .quote p {
     font-style: italic;
 }
+
+/* Section 4 - BERITA */
+  .environmental-news {
+    padding: 60px;
+    background-color: var(--color1);
+    color: var(--darkgreen);
+  }
+  .environmental-news h2 {
+    margin-bottom: 20px;
+  }
+  .environmental-news h2 span {
+    color: #e74c3c;
+  }
+  
+  .news-article {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .news-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .news-article h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .read-more {
+    color: var(--color2);
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    color: #2c9b2e;
+  }
+  
+  .news-meta {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .news-meta a {
+    color: var(--color2);
+    text-decoration: none;
+  }
+  
+  .news-meta a:hover {
+    color: #2c9b2e;
+  }
+  
+  .load-more {
+    background-color: var(--darkgreen);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+  }
+  
+  .load-more:hover {
+    background-color: var(--color2);
+  }
 
 /* Footer */
 footer {
